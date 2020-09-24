@@ -97,7 +97,7 @@ if(BUILD_SHARED_LIBS OR BUILD_STATIC_LIBS)
     set_property(TARGET astyle PROPERTY SOVERSION ${MAJORVER})
 endif()
 
-# Set file names if different than 'astyle'
+# Set file names if different than 'astyle-src'
 if(BUILD_JAVA_LIBS)
     if(WIN32)
         set_property(TARGET astyle PROPERTY OUTPUT_NAME AStyle31j)
